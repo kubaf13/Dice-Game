@@ -20,6 +20,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  color: #ddd;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* LAYOUT */
@@ -163,5 +172,19 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #deb609;
+}
+
+.player--winner .score {
+  font-weight: 700;
+  color: #deb609;
+}
+
+.player--winner .current {
+  background: #deb609;
+  color: #000;
+}
+
+.hidden {
+  display: none;
 }
